@@ -42,7 +42,7 @@ Read input from the user using the ``read'' command. Prompt the user for input, 
 The shell maintains a history of at least 20 commands. You can browse through the command history using the "up" and "down" arrow keys.
 
 #### 14. Control Flow
-Support flow control constructs like `if`, `then`, `else`, and `fi` to conditionally execute commands.
+You can write conditions in the following format: `if` <condition> `then` <action> `else` <alternative action> `fi`. Ensure the entire condition is written on a single line in the terminal.
 
 ### Building and Running the Shell
 
